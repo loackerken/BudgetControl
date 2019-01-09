@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EFDC9F7-2913-4625-93E4-0FDB7D8A3D4E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BudgetControl</RootNamespace>
+    <AssemblyName>BudgetControl</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HMC-Crypto">
+      <HintPath>.\HMC-Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\E-TaxInvoice\E-TaxInvoice\libsITEXT\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessOneSDK, Version=1.0.0.1, Culture=neutral, PublicKeyToken=c7c3cb60e45d119f, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Database.cs" />
+    <Compile Include="Class\HMC_BGPERIOD.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\HMC_BGPROJECT.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\HMC_BGSCENARIO.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\HMC_BGSETUP.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\HMC_BGTRANH.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\HMC_BGTRANL.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\OACP.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\OFPR.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\OPRC.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\OPRJ.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\OUSR.cs">
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\SAPB1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPB1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\SAPB1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPB1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class\SAPB1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAPB1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BudgetImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BudgetImport.Designer.cs">
+      <DependentUpon>BudgetImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BudgetTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BudgetTransfer.Designer.cs">
+      <DependentUpon>BudgetTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BudgetSetupDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BudgetSetupDetail.Designer.cs">
+      <DependentUpon>BudgetSetupDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CreateNewBudgetSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CreateNewBudgetSetup.Designer.cs">
+      <DependentUpon>CreateNewBudgetSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Budget Scenarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Budget Scenarios.Designer.cs">
+      <DependentUpon>Budget Scenarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BudgetSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BudgetSetup.Designer.cs">
+      <DependentUpon>BudgetSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\ListBudgetSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\ListBudgetSetup.Designer.cs">
+      <DependentUpon>ListBudgetSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\SAPConnector.cs" />
+    <EmbeddedResource Include="Form\BudgetImport.resx">
+      <DependentUpon>BudgetImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BudgetTransfer.resx">
+      <DependentUpon>BudgetTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BudgetSetupDetail.resx">
+      <DependentUpon>BudgetSetupDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CreateNewBudgetSetup.resx">
+      <DependentUpon>CreateNewBudgetSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Budget Scenarios.resx">
+      <DependentUpon>Budget Scenarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BudgetSetup.resx">
+      <DependentUpon>BudgetSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ListBudgetSetup.resx">
+      <DependentUpon>ListBudgetSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Class\SAPB1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SAPB1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Class\SAPB1.edmx.diagram">
+      <DependentUpon>SAPB1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\BudgetControl.Class.HMC_BGSCENARIO.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado-simbolo-de-seguridad-de-silueta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado-simbolo-de-seguridad-de-silueta %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado-simbolo-de-seguridad-de-silueta %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado-simbolo-de-seguridad-de-silueta %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Class\SAPB1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SAPB1.edmx</DependentUpon>
+      <LastGenOutput>SAPB1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Class\SAPB1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SAPB1.edmx</DependentUpon>
+      <LastGenOutput>SAPB1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

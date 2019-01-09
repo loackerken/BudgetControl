@@ -1,0 +1,88 @@
+c:\users\ratthapong.j\documents\visual studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe.config
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\BudgetControl.pdb
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csprojResolveAssemblyReference.cache
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetImport.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetTransfer.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetupDetail.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.CreateNewBudgetSetup.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Budget_Scenarios.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetup.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.MainForm.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Login.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Setting.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListBudgetSetup.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Properties.Resources.resources
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csproj.GenerateResource.Cache
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.exe
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\obj\Debug\BudgetControl.pdb
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\HMC-Crypto.dll
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\itextsharp.xtra.dll
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\itextsharp.dll
+C:\Users\Ratthapong.J\documents\visual studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\EntityFramework.dll
+C:\Users\Ratthapong.J\documents\visual studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ratthapong.J\documents\visual studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\EntityFramework.xml
+C:\Users\Ratthapong.J\documents\visual studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ratthapong.J\Documents\Visual Studio 2015\Projects\BudgetControl\BudgetControl\bin\Debug\SAPBusinessOneSDK.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe.config
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.exe
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.pdb
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\BudgetControl.pdb
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\EntityFramework.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\HMC-Crypto.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\SAPBusinessOneSDK.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\itextsharp.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\EntityFramework.xml
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csprojResolveAssemblyReference.cache
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetImport.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetTransfer.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetupDetail.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.CreateNewBudgetSetup.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Budget_Scenarios.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetup.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.MainForm.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Login.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Setting.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListBudgetSetup.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Properties.Resources.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csproj.GenerateResource.Cache
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\SummaryDataGridView.dll
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\bin\Debug\SummaryDataGridView.pdb
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListTransfer.resources
+D:\Project\กอช\BudgetControl\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListPopup.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe.config
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.exe
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.pdb
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\BudgetControl.exe
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\BudgetControl.pdb
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\EntityFramework.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\HMC-Crypto.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\itextsharp.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\EntityFramework.xml
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\SummaryDataGridView.pdb
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csprojResolveAssemblyReference.cache
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetImport.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetTransfer.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetupDetail.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.CreateNewBudgetSetup.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Budget_Scenarios.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.BudgetSetup.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.MainForm.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListPopup.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListTransfer.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Login.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Setting.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.ListBudgetSetup.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.Properties.Resources.resources
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csproj.GenerateResource.Cache
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\ExcelDataReader.dll
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\ExcelDataReader.xml
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\BudgetControl.csproj.ResolveComReference.cache
+C:\Users\Ratthapong.J\Desktop\BudgetControl\BudgetControl\obj\Debug\Interop.SAPbobsCOM.dll

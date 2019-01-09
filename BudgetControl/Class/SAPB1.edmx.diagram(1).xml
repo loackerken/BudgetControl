@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ea7da14460245928f6dca3c384ccb04" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGTRANH" Width="1.875" PointX="4.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGTRANL" Width="2" PointX="4.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.OACP" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.OFPR" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.OPRC" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.OPRJ" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.OUSR" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGPERIOD" Width="2.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGPROJECT" Width="2.375" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGSCENARIO" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="NSF_DevelopModel.HMC_BGSETUP" Width="2.25" PointX="11.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
